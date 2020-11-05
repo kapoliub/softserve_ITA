@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+}
+
+.window {
+  position: absolute;
+  top: 207px;
+  left: 102px;
+  background-color: rgb(29, 29, 29);
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+}
+
+.activeWindow {
+  background-color: rgb(237, 224, 149);
+}
+
+.house-wrapper {
+    position: relative;
+  }
+
+.house-wrapper img {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+}
