@@ -1,0 +1,20 @@
+{
+  "name": "algo-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
