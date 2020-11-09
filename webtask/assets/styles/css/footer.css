@@ -1,0 +1,19 @@
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  height: 50px;
+  padding: 10px; }
+  .container .footer h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.1em;
+    margin-bottom: 10px;
+    font-weight: bold; }

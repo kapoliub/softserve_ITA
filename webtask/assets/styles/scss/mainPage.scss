@@ -1,0 +1,26 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+.container{
+    .content-wrapper{
+        .main-image-wrapper{
+            margin-bottom: $SECTION_MARGIN;
+            img{
+                width: 100%;
+            }
+        }
+        .section-wrapper{
+            margin-bottom: $SECTION_MARGIN;
+            text-align: center;
+            .title{
+                @include h3;
+                text-align: center;
+            }
+            .text{
+                line-height: 25px;
+                font-size: $P_SIZE;
+                padding: 0 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  .header {
+      width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: $HEADER_HEIGHT;
+    .navbar {
+      display: flex;
+      .nav-item {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 5px 15px;
+        height: $HEADER_HEIGHT;
+        width: 100%;
+        &:hover {
+          border-bottom: 3px solid blue;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          font-size: 1.2em;
+          text-decoration: none;
+          color: $MAIN_TEXT_COLOR;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .logo-wrapper {
+      width: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
