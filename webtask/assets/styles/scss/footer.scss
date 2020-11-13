@@ -1,18 +1,15 @@
-@import './variables.scss';
-@import './mixins.scss';
+@import "variables.scss";
 
-.container{
-    .footer{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: black;
-        height: $HEADER_HEIGHT;
-        padding: 10px;
-        h1{
-            text-align: center;
-            color: white;
-            @include h1;
-        }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $MAIN_BG_COLOR;
+    min-height: $HEADER_HEIGHT;
+    color: $HEADER_TEXT_COLOR;
+    p{
+        font-size: 1.8em;
+        padding: 30px;
+        font-weight: bold;
     }
 }

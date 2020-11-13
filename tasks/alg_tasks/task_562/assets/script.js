@@ -14,3 +14,5 @@ const getArmstrongNumbers = () => {
     .filter((el, i) => el === arr[i]);
 };
 console.log(getArmstrongNumbers());
+
+// console.log(get)

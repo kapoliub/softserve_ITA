@@ -1,26 +1,23 @@
-@import './variables.scss';
-@import './mixins.scss';
-
-.container{
-    .content-wrapper{
-        .main-image-wrapper{
-            margin-bottom: $SECTION_MARGIN;
-            img{
-                width: 100%;
-            }
-        }
-        .section-wrapper{
-            margin-bottom: $SECTION_MARGIN;
-            text-align: center;
-            .title{
-                @include h3;
-                text-align: center;
-            }
-            .text{
-                line-height: 25px;
-                font-size: $P_SIZE;
-                padding: 0 10px;
-            }
-        }
+@import "./variables.scss";
+.content-wrapper {
+  .main-image-wrapper {
+      position: relative;
+      z-index: -1;
+    img {
+      width: 100%;
     }
+  }
+  .section-wrapper {
+    padding: 20px;
+    .title {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding-bottom: 15px;
+    }
+    .text {
+      font-size: 1.1em;
+      line-height: 1.3em;
+    }
+  }
 }
+
