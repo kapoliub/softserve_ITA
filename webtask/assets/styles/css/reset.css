@@ -138,3 +138,11 @@ main {
 
 h1 {
   text-transform: uppercase; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none; }
+
+textarea {
+  resize: none; }

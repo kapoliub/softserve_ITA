@@ -146,3 +146,11 @@ main{
 h1{
   text-transform: uppercase;
 }
+
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+textarea{
+  resize: none;
+}
