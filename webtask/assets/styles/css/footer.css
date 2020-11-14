@@ -10,7 +10,9 @@
           align-items: center;
   background-color: black;
   min-height: 50px;
-  color: white; }
+  color: white;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
   .footer p {
     font-size: 1.8em;
     padding: 30px;

@@ -27,19 +27,20 @@
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      height: 20px;
+      height: 50px;
       width: 50px; }
       .header .navbar .burger-menu .burger-line {
         color: red;
         width: 30px;
         height: 4px;
-        background-color: #50B1F9; }
+        margin: 3px;
+        background-color: #50b1f9; }
     .header .navbar .nav-items {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -73,6 +74,9 @@
           font-size: 1.2em;
           padding: 0 15px;
           height: 100%; }
+          .header .navbar .nav-items .nav-item a.active {
+            color: #50b1f9;
+            font-weight: bold; }
       .header .navbar .nav-items .dropdown-menu {
         position: relative; }
         .header .navbar .nav-items .dropdown-menu::after {
@@ -90,13 +94,22 @@
           top: 3px;
           right: 7px; }
         .header .navbar .nav-items .dropdown-menu:hover .dropdown-container {
-          display: block; }
+          display: block;
+          height: 200px;
+          opacity: 1;
+          visibility: visible;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px; }
         .header .navbar .nav-items .dropdown-menu .dropdown-container {
+          opacity: 0;
           background-color: black;
-          display: none;
           position: absolute;
           top: 50px;
-          left: 0; }
+          left: 0;
+          height: 0;
+          -webkit-transition: 0.5s;
+          transition: 0.5s;
+          visibility: hidden; }
   .header .logo-wrapper {
     height: 50px;
     overflow: hidden; }
@@ -113,10 +126,10 @@
       width: 100vw;
       display: block; }
     .header .navbar .nav-items .dropdown-menu::after {
-      left: 85px;
+      left: 105px;
       top: -32px; }
     .header .navbar .nav-items .dropdown-menu:hover::after {
-      left: 85px;
+      left: 105px;
       top: -32px; }
     .header .navbar .nav-items .dropdown-menu .dropdown-container {
       background-color: black;
@@ -134,7 +147,7 @@
     display: flex; }
   .header .navbar:hover .nav-items {
     position: absolute;
-    top: 0;
+    top: 50px;
     display: block;
     background-color: black;
     z-index: 1; } }

@@ -7,6 +7,7 @@
     background-color: $MAIN_BG_COLOR;
     min-height: $HEADER_HEIGHT;
     color: $HEADER_TEXT_COLOR;
+    flex-shrink: 0;
     p{
         font-size: 1.8em;
         padding: 30px;
