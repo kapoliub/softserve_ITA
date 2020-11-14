@@ -12,8 +12,8 @@
       max-width: 600px;
       width: 100%;
       text-align: center;
-      -webkit-box-shadow: 1px 1px 5px #50b1f9;
-              box-shadow: 1px 1px 5px #50b1f9; }
+      -webkit-box-shadow: 1px 1px 5px grey;
+              box-shadow: 1px 1px 5px grey; }
       .content-wrapper .calendar-table-wrapper table thead {
         background-color: #50b1f9;
         font-weight: bold; }

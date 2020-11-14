@@ -13,6 +13,7 @@
     flex-wrap: wrap;
 
     .news-card {
+      cursor: pointer;
         max-width: 350px;
         width: 100%;
         max-height: 500px;
@@ -25,6 +26,10 @@
         box-shadow: 1px 1px 5px grey;
         border-radius: $CARD_RADIUS;
         margin: $CARD_PADDING auto;
+        &:hover{
+          transform: scale(1.05);
+          transition: .1s;
+        }
         .img-wrapper {
             margin-bottom: $CARD_PADDING;
           img{
